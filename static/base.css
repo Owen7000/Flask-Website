@@ -1,0 +1,25 @@
+cb { background-color: rgb(63,63,63) }
+
+a {
+	color: black;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	
+}
+
+body {
+	text-align: center;
+	font-family: 'IBM Plex Sans', sans-serif;
+	background-color: black;
+	color: white;
+}
+
+#grad1 {
+    height: 250px;
+    width: 100%;
+    background-color: #1fc8db;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    color: white;
+    opacity: 0.95;
+}
