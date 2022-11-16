@@ -1,4 +1,4 @@
-import random
+import random, os
 from flask import Flask
 from flask import render_template as rt
 
@@ -9,4 +9,4 @@ def base():
   return rt('base.html', )
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0', port=random.randint(2000, 9000))
+  app.run(host='0.0.0.0', port=os.getenv("PORT", default=5000))
